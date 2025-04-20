@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.common{
+    text-align: center;
+    font-family:'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    height: 150px;
+    background-color: #f78fb3;
+    color: #fce1e4;
+    line-height: 150px;
+    font-size: 25px;
+}
+
+nav{
+    background-color: #fce1e4;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a:hover{
+    background-color: #f8c8dc;
+}
+
+nav a{
+    float: right;
+    color: #d6336c;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #fff0f5;
+    color: #333333;
+    right: 5px;
+    left: 5px;
+    text-align: center;
+    font-family:'Segoe UI', 'Helvetica Neue', sans-serif;
+    padding-bottom: 200px; /* leave space for footer */
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+
+    background-color: #f78fb3;
+    color: #fce1e4;
+
+    text-align: center;
+    z-index: 1000;
+}
+
+.footer a {
+    color: #fce1e4;
+    text-decoration: underline;
+    font-size: 16px;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+.centered-list {
+    margin: 0 auto;
+    width: fit-content; /* Keeps it snug around the list */
+    text-align: left;
+    padding: 10px;
+}
+
+.centered-paragraph {
+    max-width: 70%; /* or whatever width you like */
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+
